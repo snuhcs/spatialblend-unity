@@ -1,0 +1,15 @@
+{
+    "name": "SpatialBlend.Foundation.Tests",
+    "rootNamespace": "SpatialBlend.Tests",
+    "references": ["SpatialBlend.Foundation", "SpatialBlend.Freeform"],
+    "includePlatforms": ["Editor"],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": ["nunit.framework.dll"],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": ["TestAssemblies"]
+}

@@ -1,0 +1,14 @@
+{
+    "name": "SpatialBlend.Foundation",
+    "rootNamespace": "SpatialBlend",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

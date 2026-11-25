@@ -1,0 +1,30 @@
+{
+    "name": "SpatialBlend.PhotonCloudTests",
+    "rootNamespace": "SpatialBlend.Tests",
+    "references": [
+        "GUID:5053a5c0e478d0f41beb5aa612bf12ef",
+        "GUID:1baf1ffff1031e948b3b228ab3453251",
+        "GUID:c6871da2b29b4f9389a070be7d5d6628"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Fusion.Common.dll",
+        "Fusion.Runtime.dll",
+        "Fusion.Realtime.dll",
+        "Fusion.Log.dll",
+        "Fusion.Sockets.dll",
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

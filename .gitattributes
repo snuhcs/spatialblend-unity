@@ -1,0 +1,2 @@
+# Text files are LF in every checkout (the tools, the shell scripts and Unity's YAML expect LF), whatever core.autocrlf says.
+* text=auto eol=lf

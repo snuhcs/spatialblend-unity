@@ -1,0 +1,16 @@
+{
+    "name": "SpatialBlend.Freeform",
+    "rootNamespace": "SpatialBlend.Freeform",
+    "references": [
+        "GUID:c6871da2b29b4f9389a070be7d5d6628"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

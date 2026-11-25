@@ -1,0 +1,45 @@
+{
+    "name": "SpatialBlend.RestorationTests",
+    "rootNamespace": "SpatialBlend.Tests",
+    "references": [
+        "GUID:c6871da2b29b4f9389a070be7d5d6628",
+        "GUID:d19f4ab2c68e4d4d9ad92f1e5b6c70a1",
+        "GUID:5053a5c0e478d0f41beb5aa612bf12ef",
+        "GUID:1baf1ffff1031e948b3b228ab3453251",
+        "GUID:e7d0731e3a79902439b333fea88f941d",
+        "Oculus.AvatarSDK2",
+        "Oculus.AvatarSDK2.Samples",
+        "PhotonRealtime",
+        "PhotonVoice",
+        "PhotonVoice.API",
+        "PhotonVoice.Fusion",
+        "glTFast",
+        "Oculus.Interaction",
+        "UnityEngine.UI",
+        "Unity.TextMeshPro",
+        "Unity.WebRTC",
+        "meta.xr.mrutilitykit",
+        "Meta.XR.EnvironmentDepth"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Fusion.Common.dll",
+        "Fusion.Runtime.dll",
+        "Fusion.Realtime.dll",
+        "Fusion.Log.dll",
+        "Fusion.Sockets.dll",
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false,
+    "optionalUnityReferences": [
+        "TestAssemblies"
+    ]
+}

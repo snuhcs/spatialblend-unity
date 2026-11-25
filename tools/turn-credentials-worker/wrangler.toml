@@ -1,0 +1,12 @@
+name = "spatialblend-turn-credentials"
+main = "src/index.js"
+compatibility_date = "2025-09-01"
+
+[vars]
+# Credential lifetime handed to the app; Cloudflare caps it at 48 h. Four hours covers a demo session.
+TTL_SECONDS = "14400"
+
+# Secrets (set with `wrangler secret put <NAME>`; never commit them):
+#   TURN_KEY_ID          the TURN key's ID (Cloudflare dashboard, Realtime > TURN)
+#   TURN_KEY_API_TOKEN   that key's API token
+#   CLIENT_SECRET        a random string the app sends in X-SpatialBlend-Client

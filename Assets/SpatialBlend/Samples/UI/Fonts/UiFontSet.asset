@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d30b0363f68340f9a3f2c9346069c54, type: 3}
+  m_Name: UiFontSet
+  m_EditorClassIdentifier: 
+  Regular: {fileID: 11400000, guid: 52222c4562a8e457db4ca05d07e95747, type: 2}
+  SemiBold: {fileID: 11400000, guid: de81af22224a942f3a7385a25a848d39, type: 2}

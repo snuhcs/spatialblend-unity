@@ -1,0 +1,26 @@
+{
+    "name": "SpatialBlend.Editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:c6871da2b29b4f9389a070be7d5d6628",
+        "GUID:5053a5c0e478d0f41beb5aa612bf12ef",
+        "GUID:76676817d91ba4f44b4aa7df71867256",
+        "GUID:1baf1ffff1031e948b3b228ab3453251",
+        "GUID:4d449a4732e064d26a3069f2cfd88917",
+        "Unity.XR.Management",
+        "Unity.XR.Management.Editor",
+        "Unity.XR.OpenXR",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

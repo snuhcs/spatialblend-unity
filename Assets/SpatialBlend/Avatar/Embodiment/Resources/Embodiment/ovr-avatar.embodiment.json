@@ -1,0 +1,309 @@
+{
+ "format": "spatialblend.embodiment",
+ "schema_version": "1.0.0",
+ "id": "ovr-avatar-preset",
+ "units": "m",
+ "frame": "z-up, right-handed",
+ "bone_frame": "Each bone's frame is the Meta avatar asset's native bone frame carried into the core's canonical axes: canonical local coordinates are B times the native local coordinates, B rows (0,0,1; 1,0,0; 0,1,0) (glTF x left, y up, z forward -> x forward, y left, z up). The published bone rotation is B R_n B^T, R_n the bone's world rotation in the asset's native frame (rest rotations: ovr-avatar.chain.json). Anchor offsets carry a rotation that aligns the anchor frame with the canonical axes at rest. Joint names are ovrAvatar2JointType.",
+ "skeleton": {
+  "joints": [
+   {
+    "name": "Root",
+    "parent": -1
+   },
+   {
+    "name": "Hips",
+    "parent": 0
+   },
+   {
+    "name": "LeftLegUpper",
+    "parent": 1
+   },
+   {
+    "name": "LeftLegLower",
+    "parent": 2
+   },
+   {
+    "name": "LeftFootAnkle",
+    "parent": 3
+   },
+   {
+    "name": "LeftFootBall",
+    "parent": 4
+   },
+   {
+    "name": "RightLegUpper",
+    "parent": 1
+   },
+   {
+    "name": "RightLegLower",
+    "parent": 6
+   },
+   {
+    "name": "RightFootAnkle",
+    "parent": 7
+   },
+   {
+    "name": "RightFootBall",
+    "parent": 8
+   },
+   {
+    "name": "SpineLower",
+    "parent": 1
+   },
+   {
+    "name": "SpineMiddle",
+    "parent": 10
+   },
+   {
+    "name": "SpineUpper",
+    "parent": 11
+   },
+   {
+    "name": "Chest",
+    "parent": 12
+   },
+   {
+    "name": "Neck",
+    "parent": 13
+   },
+   {
+    "name": "Head",
+    "parent": 14
+   },
+   {
+    "name": "LeftShoulder",
+    "parent": 13
+   },
+   {
+    "name": "LeftArmUpper",
+    "parent": 16
+   },
+   {
+    "name": "LeftArmLower",
+    "parent": 17
+   },
+   {
+    "name": "LeftHandWrist",
+    "parent": 18
+   },
+   {
+    "name": "RightShoulder",
+    "parent": 13
+   },
+   {
+    "name": "RightArmUpper",
+    "parent": 20
+   },
+   {
+    "name": "RightArmLower",
+    "parent": 21
+   },
+   {
+    "name": "RightHandWrist",
+    "parent": 22
+   },
+   {
+    "name": "LeftHandThumbTrapezium",
+    "parent": 19
+   },
+   {
+    "name": "LeftHandThumbMeta",
+    "parent": 24
+   },
+   {
+    "name": "LeftHandThumbProximal",
+    "parent": 25
+   },
+   {
+    "name": "LeftHandThumbDistal",
+    "parent": 26
+   },
+   {
+    "name": "LeftHandIndexMeta",
+    "parent": 19
+   },
+   {
+    "name": "LeftHandIndexProximal",
+    "parent": 28
+   },
+   {
+    "name": "LeftHandIndexIntermediate",
+    "parent": 29
+   },
+   {
+    "name": "LeftHandIndexDistal",
+    "parent": 30
+   },
+   {
+    "name": "LeftHandMiddleMeta",
+    "parent": 19
+   },
+   {
+    "name": "LeftHandMiddleProximal",
+    "parent": 32
+   },
+   {
+    "name": "LeftHandMiddleIntermediate",
+    "parent": 33
+   },
+   {
+    "name": "LeftHandMiddleDistal",
+    "parent": 34
+   },
+   {
+    "name": "LeftHandRingMeta",
+    "parent": 19
+   },
+   {
+    "name": "LeftHandRingProximal",
+    "parent": 36
+   },
+   {
+    "name": "LeftHandRingIntermediate",
+    "parent": 37
+   },
+   {
+    "name": "LeftHandRingDistal",
+    "parent": 38
+   },
+   {
+    "name": "LeftHandPinkyMeta",
+    "parent": 19
+   },
+   {
+    "name": "LeftHandPinkyProximal",
+    "parent": 40
+   },
+   {
+    "name": "LeftHandPinkyIntermediate",
+    "parent": 41
+   },
+   {
+    "name": "LeftHandPinkyDistal",
+    "parent": 42
+   },
+   {
+    "name": "RightHandThumbTrapezium",
+    "parent": 23
+   },
+   {
+    "name": "RightHandThumbMeta",
+    "parent": 44
+   },
+   {
+    "name": "RightHandThumbProximal",
+    "parent": 45
+   },
+   {
+    "name": "RightHandThumbDistal",
+    "parent": 46
+   },
+   {
+    "name": "RightHandIndexMeta",
+    "parent": 23
+   },
+   {
+    "name": "RightHandIndexProximal",
+    "parent": 48
+   },
+   {
+    "name": "RightHandIndexIntermediate",
+    "parent": 49
+   },
+   {
+    "name": "RightHandIndexDistal",
+    "parent": 50
+   },
+   {
+    "name": "RightHandMiddleMeta",
+    "parent": 23
+   },
+   {
+    "name": "RightHandMiddleProximal",
+    "parent": 52
+   },
+   {
+    "name": "RightHandMiddleIntermediate",
+    "parent": 53
+   },
+   {
+    "name": "RightHandMiddleDistal",
+    "parent": 54
+   },
+   {
+    "name": "RightHandRingMeta",
+    "parent": 23
+   },
+   {
+    "name": "RightHandRingProximal",
+    "parent": 56
+   },
+   {
+    "name": "RightHandRingIntermediate",
+    "parent": 57
+   },
+   {
+    "name": "RightHandRingDistal",
+    "parent": 58
+   },
+   {
+    "name": "RightHandPinkyMeta",
+    "parent": 23
+   },
+   {
+    "name": "RightHandPinkyProximal",
+    "parent": 60
+   },
+   {
+    "name": "RightHandPinkyIntermediate",
+    "parent": 61
+   },
+   {
+    "name": "RightHandPinkyDistal",
+    "parent": 62
+   }
+  ]
+ },
+ "anchors": [
+  {
+   "name": "root",
+   "bone": null,
+   "families": [
+    "Spacing"
+   ]
+  },
+  {
+   "name": "head",
+   "bone": "Head",
+   "families": [
+    "Facing"
+   ],
+   "driven_by": "entity_input"
+  },
+  {
+   "name": "pelvis",
+   "bone": "Hips",
+   "families": [
+    "AffordancePose"
+   ],
+   "offset_from": "measurement"
+  },
+  {
+   "name": "hand_l",
+   "bone": "LeftHandWrist",
+   "families": [
+    "AffordancePose"
+   ],
+   "offset_from": "measurement"
+  },
+  {
+   "name": "hand_r",
+   "bone": "RightHandWrist",
+   "families": [
+    "AffordancePose"
+   ],
+   "offset_from": "measurement"
+  }
+ ]
+}

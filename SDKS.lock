@@ -1,0 +1,1402 @@
+{
+  "schema": 1,
+  "format": "JSON. One entry per external dependency. Read by tools/setup_sdks.py and Assets/SpatialBlend/Editor/SdkLockCheck.cs. Edit by hand; keep keys sorted by entry order.",
+  "redistributable": "yes = may be committed to a public repo; no = never in a public repo (fetched or downloaded by each user); samples-with-notice = sample source may be redistributed with the license notice",
+  "unity_editor": {
+    "version": "6000.0.56f1",
+    "revision": "9c7b5e468860"
+  },
+  "entries": [
+    {
+      "name": "com.meta.xr.depthapi",
+      "kind": "upm-git",
+      "required": true,
+      "version": "77.0.0",
+      "source": {
+        "type": "git",
+        "url": "https://github.com/oculus-samples/Unity-DepthAPI.git",
+        "path": "/Packages/com.meta.xr.depthapi",
+        "revision": "86633ff2996c98b366395e705d089bfda60ee1a8"
+      },
+      "manifest_value": "https://github.com/oculus-samples/Unity-DepthAPI.git?path=/Packages/com.meta.xr.depthapi#86633ff2996c98b366395e705d089bfda60ee1a8",
+      "sha256": null,
+      "license": {
+        "name": "Oculus SDK License Agreement",
+        "url": "https://github.com/oculus-samples/Unity-DepthAPI/blob/main/LICENSE"
+      },
+      "license_checked": true,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.meta.xr.sdk.all",
+      "kind": "upm",
+      "required": true,
+      "version": "77.0.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://developer.oculus.com/ (Meta XR UPM) / Unity Package Manager"
+      },
+      "manifest_value": "77.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Meta Platform Technologies SDK License Agreement (effective 2022-10-25)",
+        "url": "https://developer.oculus.com/licenses/oculussdk/"
+      },
+      "license_checked": true,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.meta.xr.sdk.avatars",
+      "kind": "upm",
+      "required": true,
+      "version": "35.2.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://developer.oculus.com/ (Meta XR UPM) / Unity Package Manager"
+      },
+      "manifest_value": "35.2.0",
+      "sha256": null,
+      "license": {
+        "name": "Meta Platform Technologies SDK License Agreement (effective 2022-10-25)",
+        "url": "https://developer.oculus.com/licenses/oculussdk/"
+      },
+      "license_checked": true,
+      "redistributable": "samples-with-notice"
+    },
+    {
+      "name": "com.unity.2d.sprite",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.2d.tilemap",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.addressables",
+      "kind": "upm",
+      "required": true,
+      "version": "2.6.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "2.6.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.addressables.android",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.6",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.0.6",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.ads",
+      "kind": "upm",
+      "required": true,
+      "version": "4.4.2",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "4.4.2",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.ai.navigation",
+      "kind": "upm",
+      "required": true,
+      "version": "2.0.8",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "2.0.8",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.analytics",
+      "kind": "upm",
+      "required": true,
+      "version": "3.8.1",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "3.8.1",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.cloud.gltfast",
+      "kind": "upm",
+      "required": true,
+      "version": "6.15.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "6.15.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.collab-proxy",
+      "kind": "upm",
+      "required": true,
+      "version": "2.8.2",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "2.8.2",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.feature.characters-animation",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.feature.worldbuilding",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.1",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.0.1",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.ide.rider",
+      "kind": "upm",
+      "required": true,
+      "version": "3.0.36",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "3.0.36",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.ide.visualstudio",
+      "kind": "upm",
+      "required": true,
+      "version": "2.0.23",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "2.0.23",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.inputsystem",
+      "kind": "upm",
+      "required": true,
+      "version": "1.14.2",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.14.2",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": true,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.mobile.android-logcat",
+      "kind": "upm",
+      "required": true,
+      "version": "1.4.5",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.4.5",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.multiplayer.center",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.nuget.mono-cecil",
+      "kind": "upm",
+      "required": true,
+      "version": "1.11.4",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.11.4",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.postprocessing",
+      "kind": "upm",
+      "required": true,
+      "version": "3.5.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "3.5.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.purchasing",
+      "kind": "upm",
+      "required": true,
+      "version": "4.12.2",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "4.12.2",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.test-framework",
+      "kind": "upm",
+      "required": true,
+      "version": "1.5.1",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.5.1",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.timeline",
+      "kind": "upm",
+      "required": true,
+      "version": "1.8.9",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.8.9",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.ugui",
+      "kind": "upm",
+      "required": true,
+      "version": "2.0.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "2.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.visualscripting",
+      "kind": "upm",
+      "required": true,
+      "version": "1.9.7",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.9.7",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.webrtc",
+      "kind": "upm",
+      "required": true,
+      "version": "3.0.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "3.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.xr.management",
+      "kind": "upm",
+      "required": true,
+      "version": "4.5.1",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "4.5.1",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.xr.meta-openxr",
+      "kind": "upm",
+      "required": true,
+      "version": "2.4.0",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "2.4.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.xr.openxr",
+      "kind": "upm",
+      "required": true,
+      "version": "1.15.1",
+      "source": {
+        "type": "upm-registry",
+        "registry": "https://packages.unity.com"
+      },
+      "manifest_value": "1.15.1",
+      "sha256": null,
+      "license": {
+        "name": "Unity Companion License",
+        "url": "https://unity3d.com/legal/licenses/unity_companion_license"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.accessibility",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.ai",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.androidjni",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.animation",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.assetbundle",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.audio",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.cloth",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.director",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.imageconversion",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.imgui",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.jsonserialize",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.particlesystem",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.physics",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.physics2d",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.screencapture",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.terrain",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.terrainphysics",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.tilemap",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.ui",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.uielements",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.umbra",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.unityanalytics",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.unitywebrequest",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.unitywebrequestassetbundle",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.unitywebrequestaudio",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.unitywebrequesttexture",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.unitywebrequestwww",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.vehicles",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.video",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.vr",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.wind",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "com.unity.modules.xr",
+      "kind": "upm",
+      "required": true,
+      "version": "1.0.0",
+      "source": {
+        "type": "upm-builtin"
+      },
+      "manifest_value": "1.0.0",
+      "sha256": null,
+      "license": {
+        "name": "Unity built-in module (part of the Unity Editor; Unity terms)",
+        "url": "https://unity.com/legal"
+      },
+      "license_checked": false,
+      "redistributable": "no"
+    },
+    {
+      "name": "photon-fusion",
+      "version": "2.0.9 Stable 1566",
+      "sha256": "7c7dea3845e3886d0a7c3a2bdceeb0817e5b2f8daf6961dff72ecbb671353435",
+      "install_dir": "Assets/Photon/Fusion",
+      "marker_sha256": {
+        "Fusion/build_info.txt": "7f11921cd51b6d81c377d5d882958ed4c2c2373f85c8d80588ff92cc95e8b4ca",
+        "Fusion/package.json": "2a93d99dd448b038438aceaaa2236bd382b770ab98bf446553f4dac1099fdf1b"
+      },
+      "kind": "photon",
+      "required": true,
+      "source": {
+        "type": "unity-asset-store",
+        "publisher": "Photon Engine",
+        "acquire": "Unity Asset Store (free); add to your account, then Package Manager > My Assets > Download",
+        "note": "Never downloaded or redistributed by this repo; Asset Store EULA and the Photon License Terms (10.1, 10.2) apply. Installed from the user's cached package by tools/setup_sdks.py."
+      },
+      "license": {
+        "name": "Photon License Terms (no version or effective date; read 2026-10-19)",
+        "url": "https://www.photonengine.com/terms/licenseterms"
+      },
+      "license_checked": true,
+      "redistributable": "no",
+      "asset_store_name": "Photon Fusion",
+      "asset_store_file": "Photon Fusion.unitypackage",
+      "package_version": "2.0.9 Stable 1566 (git 2.0/release 7f547b353)",
+      "size": 11378667,
+      "notes": "Official package hashes verified by the maintainer against the installed build. The marker_sha256 values are a second check on the extracted files."
+    },
+    {
+      "name": "photon-realtime",
+      "version": "4.1.8.17",
+      "sha256": null,
+      "install_dir": "Assets/Photon/PhotonRealtime",
+      "marker_sha256": {
+        "PhotonRealtime/Code/changes-realtime.txt": "3354ef5481410c1574d1efed5b63658e7bf9c98171585267de4cc457e060b30b"
+      },
+      "kind": "photon",
+      "required": true,
+      "source": {
+        "type": "unity-asset-store",
+        "publisher": "Photon Engine",
+        "acquire": "Unity Asset Store (free); add to your account, then Package Manager > My Assets > Download",
+        "note": "Never downloaded or redistributed by this repo; Asset Store EULA and the Photon License Terms (10.1, 10.2) apply. Installed from the user's cached package by tools/setup_sdks.py."
+      },
+      "license": {
+        "name": "Photon License Terms (no version or effective date; read 2026-10-19)",
+        "url": "https://www.photonengine.com/terms/licenseterms"
+      },
+      "license_checked": true,
+      "redistributable": "no",
+      "package": "Photon Fusion or Photon Voice 2 (Asset Store); checked through those packages"
+    },
+    {
+      "name": "photon-voice",
+      "version": "2.63",
+      "sha256": "68d7caf1a9d637d1adeffe8cecddf8d0936a8e873a1dc8fc78c6a8c53f8d102f",
+      "install_dir": "Assets/Photon/PhotonVoice",
+      "marker_sha256": {
+        "PhotonVoice/changes-voice.txt": "8b13f89993692abc9f8f267e84f02d153f87fb42874887c9df4b6368ffd7c4c3"
+      },
+      "kind": "photon",
+      "required": true,
+      "source": {
+        "type": "unity-asset-store",
+        "publisher": "Photon Engine",
+        "acquire": "Unity Asset Store (free); add to your account, then Package Manager > My Assets > Download",
+        "note": "Never downloaded or redistributed by this repo; Asset Store EULA and the Photon License Terms (10.1, 10.2) apply. Installed from the user's cached package by tools/setup_sdks.py."
+      },
+      "license": {
+        "name": "Photon License Terms (no version or effective date; read 2026-10-19)",
+        "url": "https://www.photonengine.com/terms/licenseterms"
+      },
+      "license_checked": true,
+      "redistributable": "no",
+      "asset_store_name": "Photon Voice 2",
+      "asset_store_file": "Photon Voice 2.unitypackage",
+      "package_version": "Voice 2.63 (2026-02-23); also holds Realtime and Libs 4.1.8.17 rev8151",
+      "size": 95210477,
+      "notes": "Official package hashes verified by the maintainer against the installed build. The marker_sha256 values are a second check on the extracted files."
+    },
+    {
+      "name": "photon-libs",
+      "version": "4.1.8.17",
+      "sha256": null,
+      "install_dir": "Assets/Photon/PhotonLibs",
+      "kind": "photon",
+      "required": true,
+      "source": {
+        "type": "unity-asset-store",
+        "publisher": "Photon Engine",
+        "acquire": "Unity Asset Store (free); add to your account, then Package Manager > My Assets > Download",
+        "note": "Never downloaded or redistributed by this repo; Asset Store EULA and the Photon License Terms (10.1, 10.2) apply. Installed from the user's cached package by tools/setup_sdks.py."
+      },
+      "license": {
+        "name": "Photon License Terms (no version or effective date; read 2026-10-19)",
+        "url": "https://www.photonengine.com/terms/licenseterms"
+      },
+      "license_checked": true,
+      "redistributable": "no",
+      "package": "Photon Fusion or Photon Voice 2 (Asset Store); checked through those packages"
+    },
+    {
+      "name": "photon-pun",
+      "version": "2.52",
+      "sha256": null,
+      "install_dir": "Assets/Photon/PhotonUnityNetworking",
+      "kind": "photon",
+      "required": true,
+      "source": {
+        "type": "unity-asset-store",
+        "publisher": "Photon Engine",
+        "acquire": "Unity Asset Store (free); add to your account, then Package Manager > My Assets > Download",
+        "note": "Never downloaded or redistributed by this repo; Asset Store EULA and the Photon License Terms (10.1, 10.2) apply. Installed from the user's cached package by tools/setup_sdks.py."
+      },
+      "license": {
+        "name": "Photon License Terms (no version or effective date; read 2026-10-19)",
+        "url": "https://www.photonengine.com/terms/licenseterms"
+      },
+      "license_checked": true,
+      "redistributable": "no",
+      "package": "Photon Fusion or Photon Voice 2 (Asset Store); checked through those packages"
+    },
+    {
+      "name": "meta-avatars-samples",
+      "kind": "samples",
+      "required": true,
+      "version": "35.2.0",
+      "sha256": null,
+      "source": {
+        "type": "package-cache",
+        "package": "com.meta.xr.sdk.avatars",
+        "fingerprint": "99a67d4aa1f5fd0259dde4e56e3f984347fe1862",
+        "path": "Samples~/Scripts",
+        "tool": "tools/bootstrap-meta-avatar-samples.py"
+      },
+      "install_dir": "Assets/Samples/Meta Avatars SDK/35.2.0/Sample Scenes/Scripts",
+      "license": {
+        "name": "Meta Platform Technologies SDK License Agreement (effective 2022-10-25)",
+        "url": "https://developer.oculus.com/licenses/oculussdk/"
+      },
+      "license_checked": true,
+      "redistributable": "samples-with-notice",
+      "notes": "Section 1.1.2: sample source may be modified, distributed and sublicensed. Section 1.3: redistribution needs the notice 'Copyright (c) Meta Platform Technologies, LLC and its affiliates. All rights reserved.' and a copy of the License file. Section 1.2.8: not under an open-source license. Preferred: keep bootstrapping from the package cache."
+    },
+    {
+      "name": "meta-avatars-assets",
+      "kind": "avatar-assets",
+      "required": true,
+      "version": "35.2.0",
+      "sha256": null,
+      "source": {
+        "type": "package-cache",
+        "packages": [
+          {
+            "package": "com.meta.xr.sdk.avatars",
+            "fingerprint": "99a67d4aa1f5fd0259dde4e56e3f984347fe1862",
+            "path": "CoreAssets"
+          },
+          {
+            "package": "com.meta.xr.sdk.avatars.sample.assets",
+            "fingerprint": "72c8e93d0bf263a2c90d250a0058a531206d48af",
+            "path": "SampleAssets"
+          }
+        ],
+        "core_assets_build": "725485423",
+        "sample_assets_build": "725485423",
+        "packaged_presets": [
+          "PresetAvatars_Quest.zip",
+          "PresetAvatars_Quest_Light.zip",
+          "PresetAvatars_Rift.zip",
+          "PresetAvatars_Rift_Light.zip"
+        ],
+        "tool": "tools/bootstrap-meta-avatar-assets.py"
+      },
+      "install_dirs": {
+        "core": "Assets/Oculus/Avatar2/CoreAssets",
+        "samples": "Assets/Oculus/Avatar2_SampleAssets/SampleAssets"
+      },
+      "license": {
+        "name": "Meta Platform Technologies SDK License Agreement (effective 2022-10-25)",
+        "url": "https://developer.oculus.com/licenses/oculussdk/"
+      },
+      "license_checked": true,
+      "redistributable": "no",
+      "notes": "What Meta's CoreAssetsUPMMover and the 'Package Presets' menu create on the first Editor start (about 0.9 GB with the zips). A build from a fresh worktree needs it first. Installed from the package cache, git-ignored (**/Oculus/), never committed. In a worktree without a Library folder pass --package-cache-dir <other checkout>/Library/PackageCache."
+    },
+    {
+      "name": "oculus-project-config",
+      "kind": "project-config",
+      "required": true,
+      "version": "Meta XR 77.0.0 OVRProjectConfig",
+      "sha256": null,
+      "source": {
+        "type": "committed-template",
+        "template": "tools/templates/OculusProjectConfig.asset.template",
+        "meta_template": "tools/templates/OculusProjectConfig.asset.meta.template"
+      },
+      "install_path": "Assets/Oculus/OculusProjectConfig.asset",
+      "license": {
+        "name": "SpatialBlend own project settings; no secrets (checked: device targets, feature flags and SDK levels only)",
+        "url": "https://github.com/snuhcs/spatialblend"
+      },
+      "license_checked": true,
+      "redistributable": "yes",
+      "notes": "Written only when the file is absent; an existing one (which the Meta editor tools may rewrite) is never overwritten. Lives in the git-ignored Assets/Oculus/."
+    },
+    {
+      "name": "libspatialblend",
+      "kind": "native",
+      "required": true,
+      "version": "snuhcs/spatialblend-core v1.0.0 (C ABI 4.14; the binding needs 4.12 or newer)",
+      "sha256": null,
+      "source": {
+        "type": "github-release",
+        "url": "https://github.com/snuhcs/spatialblend-core/releases/download/v1.0.0",
+        "tool": "tools/fetch_plugins.py"
+      },
+      "install_dir": "Assets/Plugins",
+      "checksum": "each file is checked by tools/fetch_plugins.py against the SHA256SUMS published with the release",
+      "license": {
+        "name": "MIT (snuhcs/spatialblend-core, source and binaries); statically linked third-party code: THIRD_PARTY_NOTICES-native.txt in the release",
+        "url": "https://github.com/snuhcs/spatialblend-core"
+      },
+      "license_checked": true,
+      "redistributable": "yes"
+    },
+    {
+      "name": "libspatialblend_session",
+      "kind": "native",
+      "required": false,
+      "version": "snuhcs/spatialblend-reconstruction v1.0.0",
+      "sha256": null,
+      "source": {
+        "type": "github-release",
+        "url": "https://github.com/snuhcs/spatialblend-reconstruction/releases/download/v1.0.0",
+        "tool": "tools/fetch_plugins.py"
+      },
+      "install_dir": "Assets/Plugins",
+      "checksum": "checked by tools/fetch_plugins.py against the published SHA256SUMS",
+      "license": {
+        "name": "MIT (snuhcs/spatialblend-reconstruction); statically linked third-party code: THIRD_PARTY_NOTICES-native.txt in the release",
+        "url": "https://github.com/snuhcs/spatialblend-reconstruction"
+      },
+      "license_checked": true,
+      "redistributable": "yes"
+    },
+    {
+      "name": "apartment-kit-brick-project-studio",
+      "kind": "asset-store",
+      "required": false,
+      "private_only": true,
+      "version": "unversioned (Asset Store)",
+      "sha256": null,
+      "source": {
+        "type": "user-download",
+        "from": "https://assetstore.unity.com/packages/3d/environments/apartment-kit-124055"
+      },
+      "license": {
+        "name": "Unity Asset Store EULA",
+        "url": "https://unity.com/legal/as-terms"
+      },
+      "license_checked": false,
+      "redistributable": "no",
+      "notes": "Optional sample-scene art. Private; never published."
+    },
+    {
+      "name": "character-pack-free-sample-supercyan",
+      "kind": "asset-store",
+      "required": false,
+      "private_only": true,
+      "version": "unversioned (Asset Store)",
+      "sha256": null,
+      "source": {
+        "type": "user-download",
+        "from": "https://assetstore.unity.com/packages/3d/characters/humanoids/character-pack-free-sample-79870"
+      },
+      "license": {
+        "name": "Unity Asset Store EULA",
+        "url": "https://unity.com/legal/as-terms"
+      },
+      "license_checked": false,
+      "redistributable": "no",
+      "notes": "Optional sample-scene art. Private; never published."
+    },
+    {
+      "name": "meta-avatars-legs-rig",
+      "kind": "legs-rig",
+      "required": true,
+      "version": "35.2.0",
+      "sha256": null,
+      "source": {
+        "type": "package-cache-copy",
+        "origin": "com.meta.xr.sdk.avatars 35.2.0 (99a67d4aa1f5fd0259dde4e56e3f984347fe1862) Samples~/Scenes/LegsNetworkLoopback, asset closure of Resources/RTR00003.prefab",
+        "tool": "tools/vendor-meta-avatar-legs-rig.py"
+      },
+      "license": {
+        "name": "Meta Platform Technologies SDK License Agreement (effective 2022-10-25)",
+        "url": "https://developer.oculus.com/licenses/oculussdk/"
+      },
+      "license_checked": true,
+      "redistributable": "no",
+      "notes": "Meta Avatars sample material (prefab, Mecanim controller, FBX rig and clips, about 63 MB) that OvrAvatarAnimationBehavior loads with Resources.Load(\"RTR00003\"); without it a received avatar's legs never walk. Not redistributed in this repository (Meta SDK License 1.2.8): git-ignored and copied from your own package cache by tools/setup_sdks.py (tools/vendor-meta-avatar-legs-rig.py --apply), with the package's LICENSE.md and a NOTICE.md (section 1.3).",
+      "install_dir": "Assets/SpatialBlend/Avatar/LegsRig"
+    }
+  ]
+}

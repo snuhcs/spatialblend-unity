@@ -1,0 +1,18 @@
+{
+  "schema": 1,
+  "frame": "unity-world",
+  "sequence": 1,
+  "timeSeconds": 0.0,
+  "anchors": [
+    {
+      "anchorId": "head",
+      "worldPosition": { "x": 0.0, "y": 1.6, "z": 0.0 },
+      "worldRotation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 }
+    },
+    {
+      "anchorId": "hand_l",
+      "worldPosition": { "x": -0.3, "y": 1.2, "z": 0.4 },
+      "worldRotation": { "x": 0.0, "y": 0.0, "z": 0.0, "w": 1.0 }
+    }
+  ]
+}

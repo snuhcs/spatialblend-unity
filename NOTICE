@@ -1,0 +1,48 @@
+SpatialBlend (Freeform Collaboration, Unity project)
+Copyright (c) 2026 Seoul National University. Released under the MIT License (LICENSE), except as listed below.
+
+1. Code derived from Meta's Oculus SDK samples
+   Copyright (c) Meta Platforms, Inc. and affiliates. All rights reserved.
+   Licensed under the Oculus SDK License Agreement / Meta Platform Technologies SDK License Agreement, NOT under the MIT
+   License of this repository (a copy: LICENSES/Meta-Platform-Technologies-SDK-License.md). Each file keeps Meta's header.
+   - From the Meta Avatars SDK samples:
+       Assets/SpatialBlend/Avatar/Scripts/MetaInputTrackingDelegate.cs (modified)
+       Assets/SpatialBlend/Avatar/Scripts/SbAvatarEntity.cs (modified)
+       Assets/SpatialBlend/Avatar/Scripts/MetaTrackingInputManager.cs
+       Assets/SpatialBlend/Avatar/Scripts/SbAvatarBehaviourFusion.cs
+       Assets/SpatialBlend/Avatar/Scripts/SbAvatarSpawnerFusion.cs
+       Assets/SpatialBlend/Avatar/Scripts/SbTransformInputManager.cs
+   - From the Passthrough Camera API samples (oculus-samples/Unity-PassthroughCameraApiSamples):
+       Assets/SpatialBlend/Samples/Scanning/Scripts/PassthroughCameraDebugger.cs
+       Assets/SpatialBlend/Samples/Scanning/Scripts/PassthroughCameraPermissions.cs
+       Assets/SpatialBlend/Samples/Scanning/Scripts/PassthroughCameraUtils.cs
+       Assets/SpatialBlend/Samples/Scanning/Scripts/WebCamTextureManager.cs
+       Assets/SpatialBlend/Samples/Scanning/Scripts/PassthroughPanelManager.cs (modified)
+
+2. Code and assets derived from Meta's MR Motifs samples (oculus-samples/Unity-MRMotifs)
+   Copyright (c) Meta Platforms, Inc. and its affiliates. MIT License (a copy: LICENSES/MIT-Meta-MR-Motifs.txt).
+       Assets/SpatialBlend/Samples/Objects/Chessboard/ (models, textures and Scripts/ChessBoardHandlerMotif.cs)
+       Assets/SpatialBlend/Samples/Objects/Whiteboard/Scripts/ (InteractionStateManagerMotif.cs, PointerDrawingMotif.cs,
+         PointerHandlerMotif.cs, WhiteboardManagerMotif.cs, WhiteboardSnapshotReceiverMotif.cs)
+       Assets/SpatialBlend/Samples/Objects/Whiteboard/Textures/circle.png
+       Assets/SpatialBlend/Samples/Objects/Whiteboard/Materials/Bouncing.physicMaterial
+       Assets/SpatialBlend/Samples/Objects/Scripts/GroundingShadowMotif.cs
+
+3. glTF shader
+   Assets/SpatialBlend/Samples/Objects/Shaders/glTFPbrMetallicRoughnessOccluded.shader — derived from glTFast
+   (Copyright 2023 Unity Technologies and the glTFast authors, Apache License 2.0: LICENSES/Apache-2.0.txt), itself based on
+   Unity built-in shader source (Copyright (c) 2016 Unity Technologies, MIT). Modified to add environment-depth occlusion.
+
+4. Pretendard font
+   Assets/SpatialBlend/Samples/Fonts/Pretendard/ — Pretendard 1.3.9 (orioncactus/pretendard), SIL Open Font License 1.1
+   (OFL-LICENSE.txt in that folder).
+
+5. Not in this repository (each user obtains them under their own terms; see THIRD_PARTY.md and SDKS.lock)
+   Photon Fusion, Photon Voice, Photon Realtime (Photon License Terms and the Unity Asset Store EULA); the Meta XR and Meta
+   Avatars SDKs, including the Meta Avatars legs rig that tools/setup_sdks.py copies from your package cache (Meta Platform
+   Technologies SDK License); Unity packages (Unity Companion License); TextMesh Pro essential resources.
+
+6. Native libraries (GitHub release assets, not in the source tree)
+   libspatialblend (the core, open source: https://github.com/snuhcs/spatialblend-core) and libspatialblend_session (the scan-session client:
+   https://github.com/snuhcs/spatialblend-reconstruction), Copyright (c) 2026 Seoul National University, MIT License. They statically link third-party libraries under their own licences (gRPC, protobuf, Abseil, BoringSSL, zlib,
+   c-ares, RE2, Eigen, Ceres Solver, CDT, nlohmann/json, Boost, stb and others): THIRD_PARTY_NOTICES-native.txt in the release.
